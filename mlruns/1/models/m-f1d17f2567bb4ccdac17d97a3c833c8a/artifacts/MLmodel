@@ -1,0 +1,23 @@
+artifact_path: file:///C:/AI Projects/Self-Healing-ML-System/mlruns/1/models/m-f1d17f2567bb4ccdac17d97a3c833c8a/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.9
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.9.1+cpu
+mlflow_version: 3.8.1
+model_id: m-f1d17f2567bb4ccdac17d97a3c833c8a
+model_size_bytes: 7513
+model_uuid: m-f1d17f2567bb4ccdac17d97a3c833c8a
+prompts: null
+run_id: d4c7c36f4306480da3b6134452311b3d
+utc_time_created: '2026-01-17 10:47:30.238425'
